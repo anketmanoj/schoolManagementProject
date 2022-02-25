@@ -39,8 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    'users.apps.UsersConfig',
-    'certificates.apps.CertificatesConfig',
+    'apps.users',
+    'apps.certificates',
+    'apps.utils',
 
 ]
 

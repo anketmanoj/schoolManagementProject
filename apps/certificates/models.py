@@ -1,7 +1,8 @@
 from django.db import models
+from apps.utils.models import Timestamps
 
 
-class Certificates(models.Model):
+class Certificates(Timestamps, models.Model):
     """
     Model for certificates
     """

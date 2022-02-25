@@ -1,0 +1,12 @@
+from django.db import models
+
+
+class Timestamps(models.Model):
+    """
+    Model for timestamps
+    """
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        abstract = True
